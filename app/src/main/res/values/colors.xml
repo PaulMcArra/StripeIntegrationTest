@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="pickup_requirement_circle_background">#252525</color>
+    <color name="cta_daffodil">#FBE356</color>
+    <color name="secondary_button">#edeeee</color>
+    <color name="spinner_overlay">#66000000</color>
+    <color name="divider_grey">#e1e1e1</color>
+    <color name="divider_black">#000000</color>
+    <color name="primary_button_disabled">#878787</color>
+    <color name="switch_button_transparency">#42221F1F</color>
+    <color name="barcode_mask">#bfffffff</color>
+    <color name="product_list_view_inactive">#949494</color>
+    <color name="search_inactive_text">#FF878787</color>
+    <color name="recently_viewed_homescreen_module_background">#FFF8F8F8</color>
+    <color name="just_for_you_even_background">#EDEEEE</color>
+    <color name="checkout_progress_number_colour">#FF999999</color>
+    <color name="checkout_progress_unselected_line_colour">#FF999999</color>
+    <color name="cvv_inactive">#999999</color>
+    <color name="checkout_progress_selected_line_colour">#000000</color>
+    <color name="trending_hub_text_layout_background">#E6FFFFFF</color>
+    <color name="size_selector_textview">#FFE1E1E1</color>
+    <color name="oos_atb_button_colour">#F8F999</color>
+    <color name="inactive_grey">#999999</color>
+    <color name="thank_you_text_block">#0D77D8</color>
+    <color name="order_history_secondary_text">#999999</color>
+    <color name="switch_active">#41B97A</color>
+    <color name="pill_layout_background">#F2F3F3</color>
+    <color name="qubit_banner_background">#FFA369</color>
+    <color name="qubit_banner_action_button_transparency">#40FFFFFF</color>
+    <color name="delivery_pass_background">#E9E9E9</color>
+    <color name="swatch_overflow_text_colour">#000000</color>
+    <color name="vat_message_background">#EEEEEE</color>
+    <color name="splash_screen_background_color">#FFFFFF</color>
+    <color name="complete_the_look_background">#F7F3ED</color>
+    <color name="pdp_toolbar_border">#E5E5E5</color>
+    <color name="swatch_border">#EEEEEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="oos_sunset_red">#D65449</color>
+    <color name="oos_grey">#B6B6B6</color>
+    <color name="user_generated_content_tag">#FFFFFF</color>
+    <color name="selling_fast_translucent_black_background">#80000000</color>
+    <color name="urgency_facts_indicator_color">#80000000</color>
+    <color name="pdp_online_only_text_color">#737373</color>
+    <color name="placeholder_image_background">#ECECEC</color>
+    <color name="e_receipt_return_section_background">#F7F3ED</color>
+    <color name="order_history_empty_background">#F7F3ED</color>
+    <color name="my_river_island_id_banner_text_color">#1D1D1B</color>
+    <color name="my_river_island_id_banner_divider_color">#F7F3ED</color>
+    <color name="my_river_island_id_banner_border_color">#D4D2CF</color>
+    <color name="qr_code_id_text">#6F6F6E</color>
+    <color name="my_account_my_offers_grey">#6F6F6E</color>
+    <color name="my_account_my_offers_background">#F7F3ED</color>
+    <color name="quantity_picker_count_background">#F8F8F8</color>
+    <color name="basket_product_size_test_color">#6F6F6E</color>
+    <color name="basket_default_background_colour">#F6F0E7</color>
+    <color name="delete_item_cell_bar">#FC7570</color>
+    <color name="basket_grey_body_text">#9F9F9E</color>
+    <color name="basket_transactional_stroke_grey">#CFCFCF</color>
+    <color name="basket_summary_background">#FCFBF8</color>
+    <color name="basket_default_text_colour">#3D3935</color>
+    <color name="basket_service_banner_background">#F2E9DB</color>
+    <color name="basket_promo_code_disclaimer">#6F6F6E</color>
+    <color name="basket_keep_button_stroke_grey">#CFCFCF</color>
+    <color name="migrated_header_background_color">#F8F8F8</color>
+    <color name="basket_summary_delivery_value_color">#6F6F6E</color>
+    <color name="basket_delivery_pass_button_stroke_grey">#CFCFCF</color>
+    <color name="basket_delivery_pass_background">#F9F9F9</color>
+    <color name="basket_active_green">#03B056</color>
+    <color name="basket_delivery_pass_toggle_inactive">#D9D9D9</color>
+    <color name="checkout_background">#F2F2F2</color>
+    <color name="checkout_summary_grey">#6F6F6E</color>
+    <color name="checkout_default_text_colour">#3D3935</color>
+    <color name="checkout_summary_light_grey">#EDEDED</color>
+    <color name="checkout_summary_error_grey">#FFD6D6</color>
+    <color name="checkout_summary_error_red">#FF3230</color>
+    <color name="checkout_summary_completed_green">#3303B056</color>
+    <color name="checkout_divider_grey">#CFCFCF</color>
+    <color name="checkout_unlimited_delivery_background">#FCFCFC</color>
+    <color name="checkout_slot_text_grey">#9F9F9E</color>
+    <color name="checkout_slot_text_white">#FFFFFF</color>
+    <color name="checkout_slot_text_black">#3D3935</color>
+    <color name="checkout_delivery_pass_warning_background">#38F9D100</color>
+    <color name="checkout_delivery_pass_added_background">#F3F9F6</color>
+    <color name="checkout_delivery_pass_active_text">#027D3D</color>
+    <color name="consent_mode_grey">#6F6F6E</color>
+    <color name="consent_mode_settings_background">#F5F5F5</color>
+    <color name="transactional_yellow">#F5FA5E</color>
+
+    <!--region Pager dots -->
+    <color name="pager_selected_fill">#000000</color>
+    <color name="pager_fill">#cce1e1e1</color>
+    <!--endregion-->
+
+    <!--region Body Colors -->
+    <color name="nri_body_default_text_color">#000000</color>
+    <color name="nri_body_label_text_color">#969696</color>
+    <color name="nri_body_caption_text_color">#969696</color>
+    <color name="nri_body_placeholder_text_color">#9b9b9b</color>
+    <color name="nri_body_basket_promo_text_color">#41b97a</color>
+    <color name="nri_body_order_summary_promo_text">#ff586d</color>
+    <!--endregion-->
+
+    <!--region Title Colors -->
+    <color name="nri_title_default_text_color">#1f1f1f</color>
+    <color name="nri_title_was_price_text_color">#80000000</color>
+    <color name="nri_title_now_price_text_color">#000000</color>
+    <color name="nri_title_sale_price_text_color">#DE2826</color>
+    <color name="nri_title_letter_header_text_color">#878787</color>
+    <color name="nri_title_order_status_text_color">#41b97a</color>
+    <color name="nri_title_inactive_shop_menu_text_color">#d7d8d8</color>
+    <color name="nri_title_distance_text_color">#41b97a</color>
+    <color name="nri_title_caption_text_color">#949494</color>
+    <color name="nri_title_oos_text_color">#ff586d</color>
+    <color name="nri_title_new_caption_text_color">#969696</color>
+    <!--endregion-->
+
+    <!--region Main Title Colors -->
+    <color name="nri_main_title_default_text_color">#1f1f1f</color>
+    <!--endregion-->
+
+    <!--region Editorial Title Colors -->
+    <color name="editorial_title_default_text_color">#000000</color>
+    <!--endregion-->
+
+    <color name="input_field_line_colour">#e1e1e1</color>
+    <color name="input_field_line_selected_colour">#41b97a</color>
+    <color name="input_field_line_selected_error_colour">#ff586d</color>
+    <color name="fast_scroller_handle_colour">#41b97a</color>
+    <color name="category_shop_button">#FFEDEEEE</color>
+    <color name="homescreen_delivery_background">#edeeee</color>
+    <color name="homescreen_welcome_subheader_colour">#66252525</color>
+    <color name="gift_card_error">#ff586d</color>
+    <color name="sale_countdown_background">#ff586d</color>
+    <color name="address_disable_button">#999999</color>
+    <color name="checkout_prefs_spacer">#F7F7F7</color>
+    <color name="checkout_gift_card_added_background">#F7F7F7</color>
+    <color name="checkout_gift_card_error_background">#1AFF3230</color>
+
+    <color name="basket_remove_cta">#ff586d</color>
+    <color name="payment_method_subtext">#FF4D4D4D</color>
+    <color name="collection_current_location">#4d4d4d</color>
+    <color name="info_message">#4D4D4D</color>
+    <color name="collection_address_green">#5AC28B</color>
+    <color name="checkout_prefs_divider">#cacaca</color>
+    <color name="checkout_prefs_billing_address">#999999</color>
+    <color name="klarna_banner_background">#f2f3f3</color>
+    <color name="selected_order_item_status_background">#f2f3f3</color>
+
+    <color name="switch_thumb">#fafafa</color>
+    <color name="switch_track_off">#9b9b9b</color>
+    <color name="switch_track_on">#41b97a</color>
+    <color name="pdp_toolbar_background">#E6FFFFFF</color>
+    <color name="inbox_notification_new_indicator">#E5D1AC</color>
+    <color name="bottom_nav_subtitle">#999999</color>
+    <color name="bottom_nav_row_selected">#F2F3F3</color>
+    <color name="extra_product_info_module">#F7F3ED</color>
+
+    <color name="search_box_grey">#F7F7F7</color>
+
+    <color name="order_cancelled_status">#ff586d</color>
+
+    <color name="editorial_tab_header_unselected">#4D4D4D</color>
+
+    <color name="order_checkout_summary_filter">#66272727</color>
+    <color name="order_summary_view_items_bs">#fafafa</color>
+    <color name="order_summary_view_items_breakdown_text">#1D1D1B</color>
+    <color name="order_summary_breakdown_discount_text">#DE2826</color>
+
+    <!--region Material overrides -->
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#cacaca</color>
+    <!--endregion-->
+</resources>
