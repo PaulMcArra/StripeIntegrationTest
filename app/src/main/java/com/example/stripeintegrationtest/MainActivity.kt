@@ -30,12 +30,10 @@ class MainActivity : AppCompatActivity() {
     private var isFlowControllerSetup = false
 
     private val flowController: PaymentSheet.FlowController by lazy {
-        PaymentSheet.FlowController.create(
-            this,
-            ::onPaymentOption,
-            ::onCreateIntent,
-            ::onPaymentSheetResult
-        )
+        PaymentSheet.FlowController
+            .Builder(::onPaymentSheetResult, ::onPaymentOption)
+            .createIntentCallback(::onCreateIntent)
+            .build(this)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -86,7 +84,8 @@ class MainActivity : AppCompatActivity() {
                     amount = binding.amountInput.text.toString().toLong(),
                     currency = "GBP",
                 ),
-                paymentMethodTypes = listOf("card", "paypal", "klarna")
+                paymentMethodTypes = listOf("card", "paypal", "klarna", "afterpay_clearpay"),
+                requireCvcRecollection = true
             ),
             configuration = getPaymentSheetConfig(this),
             callback = { success, error ->
